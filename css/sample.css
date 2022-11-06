@@ -86,20 +86,14 @@ header ul:after {
 
 .function-images {
   position: relative;
-  left: 25%;
-  width: 50%;
+  display:flex;
+  justify-content: center;
 }
 
 .function-image {
   padding: 30px;
-  float: left;
 }
 
-.function .function-images:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 /* ここまでがfunction部分の実装 */
 
 footer {
